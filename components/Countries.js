@@ -36,7 +36,6 @@ export default function Countries() {
 
 const styles = StyleSheet.create({
   header: {
-    marginTop: 50,
     fontSize: 40,
     color: "red",
     padding: 10,

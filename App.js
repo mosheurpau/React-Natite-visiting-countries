@@ -5,7 +5,9 @@ import Countries from "./components/Countries";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Visiting Countries!</Text>
+      <Text style={{ marginTop: 50, fontSize: 40, fontWeight: 700 }}>
+        Visiting Countries!
+      </Text>
       <Countries></Countries>
       <StatusBar style="auto" />
     </View>
